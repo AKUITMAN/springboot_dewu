@@ -8,5 +8,4 @@ import org.apache.ibatis.annotations.Param;
 public interface UserMapper {
     Integer registry(User user);
     void update(@Param("code")String code,@Param("id")Integer id);
-
 }

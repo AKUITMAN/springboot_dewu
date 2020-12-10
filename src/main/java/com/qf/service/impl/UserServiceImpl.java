@@ -1,6 +1,7 @@
 package com.qf.service.impl;
 
 import com.qf.commom.BaseResponse;
+import com.qf.dao.ShoesRespository;
 import com.qf.dao.UserMapper;
 import com.qf.dao.UserRespository;
 import com.qf.pojo.User;
@@ -13,7 +14,6 @@ import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import java.util.List;
 import java.util.Random;
 @Service
 public class UserServiceImpl implements UserService {
